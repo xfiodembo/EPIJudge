@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4fde656-4524-4be3-ae1f-52e542bd4576" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/epi/IntAsArrayIncrement.java" beforeDir="false" afterPath="$PROJECT_DIR$/epi/IntAsArrayIncrement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epi/PrimeSieve.java" beforeDir="false" afterPath="$PROJECT_DIR$/epi/PrimeSieve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epi/SortedArrayRemoveDups.java" beforeDir="false" afterPath="$PROJECT_DIR$/epi/SortedArrayRemoveDups.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/epi/IntAsArrayIncrement.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/epi/SortedArrayRemoveDups.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="200">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/epi/PrimeSieve.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -28,6 +37,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>plus</find>
+      <find>intasarray</find>
+      <find>deleteDupli</find>
+      <find>generatePrim</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -38,6 +50,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/epi/IntAsArrayIncrement.java" />
+        <option value="$PROJECT_DIR$/epi/SortedArrayRemoveDups.java" />
+        <option value="$PROJECT_DIR$/epi/PrimeSieve.java" />
       </list>
     </option>
   </component>
@@ -74,7 +88,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545005561751" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545015674980" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -88,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PrimeSieve">
     <configuration name="IntAsArrayIncrement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="epi.IntAsArrayIncrement" />
       <module name="epi_judge_java" />
@@ -102,8 +116,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrimeSieve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="epi.PrimeSieve" />
+      <module name="epi_judge_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="epi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortedArrayRemoveDups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="epi.SortedArrayRemoveDups" />
+      <module name="epi_judge_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="epi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeSieve" />
+        <item itemvalue="Application.SortedArrayRemoveDups" />
         <item itemvalue="Application.IntAsArrayIncrement" />
       </list>
     </recent_temporary>
@@ -156,8 +198,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/epi/IntAsArrayIncrement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="86">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/epi/CountBits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/epi/SortedArrayRemoveDups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/epi/PrimeSieve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
