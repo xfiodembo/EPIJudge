@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b4fde656-4524-4be3-ae1f-52e542bd4576" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/epi/LookAndSay.java" beforeDir="false" afterPath="$PROJECT_DIR$/epi/LookAndSay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epi/EvenOddListMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/epi/EvenOddListMerge.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +32,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/epi/LookAndSay.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/epi/EvenOddListMerge.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="8">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="39" />
+              <caret line="10" column="46" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,6 +62,7 @@
       <find>deleteDupli</find>
       <find>generatePrim</find>
       <find>look</find>
+      <find>EvenOddli</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -63,6 +76,7 @@
         <option value="$PROJECT_DIR$/epi/SortedArrayRemoveDups.java" />
         <option value="$PROJECT_DIR$/epi/PrimeSieve.java" />
         <option value="$PROJECT_DIR$/epi/LookAndSay.java" />
+        <option value="$PROJECT_DIR$/epi/EvenOddListMerge.java" />
       </list>
     </option>
   </component>
@@ -99,7 +113,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545018239478" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545021078573" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -113,7 +127,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LookAndSay">
+  <component name="RunManager" selected="Application.EvenOddListMerge">
+    <configuration name="EvenOddListMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="epi.EvenOddListMerge" />
+      <module name="epi_judge_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="epi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntAsArrayIncrement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="epi.IntAsArrayIncrement" />
       <module name="epi_judge_java" />
@@ -168,6 +195,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EvenOddListMerge" />
         <item itemvalue="Application.LookAndSay" />
         <item itemvalue="Application.PrimeSieve" />
         <item itemvalue="Application.SortedArrayRemoveDups" />
@@ -200,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545015701519</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="look_and_say">
+      <created>1545018478722</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545018478722</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -237,7 +272,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="generatePrimes : from i to n, just remove multiples of primes that you know" />
-    <option name="LAST_COMMIT_MESSAGE" value="generatePrimes : from i to n, just remove multiples of primes that you know" />
+    <MESSAGE value="look_and_say" />
+    <option name="LAST_COMMIT_MESSAGE" value="look_and_say" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/epi/IntAsArrayIncrement.java">
@@ -270,8 +306,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/epi/LookAndSay.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/epi/EvenOddListMerge.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="39" />
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
