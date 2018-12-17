@@ -26,13 +26,14 @@ public class EvenOddListMerge {
       }
       current = current.next;
     }
-    ListNode<Integer> head = even.get(0);
+
     if(even.size() > 0){
       even.get(even.size() -1).next = null;
     }
     if(odd.size() > 0){
       odd.get(odd.size() -1).next = null;
     }
+    ListNode<Integer> head = even.get(0);
     current = head;
     for(int i = 1; i < even.size(); i++){
       current.next = even.get(i);
