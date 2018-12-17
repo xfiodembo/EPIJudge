@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b4fde656-4524-4be3-ae1f-52e542bd4576" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/epi/IsValidParenthesization.java" beforeDir="false" afterPath="$PROJECT_DIR$/epi/IsValidParenthesization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epi/QueueFromStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/epi/QueueFromStacks.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,11 +53,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/epi/IsValidParenthesization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="265">
+              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/epi/QueueFromStacks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,6 +86,7 @@
       <find>look</find>
       <find>EvenOddli</find>
       <find>iswel</find>
+      <find>class qu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,6 +102,7 @@
         <option value="$PROJECT_DIR$/epi/LookAndSay.java" />
         <option value="$PROJECT_DIR$/epi/EvenOddListMerge.java" />
         <option value="$PROJECT_DIR$/epi/IsValidParenthesization.java" />
+        <option value="$PROJECT_DIR$/epi/QueueFromStacks.java" />
       </list>
     </option>
   </component>
@@ -124,7 +139,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545023861010" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545026591265" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -138,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsValidParenthesization">
+  <component name="RunManager" selected="Application.QueueFromStacks">
     <configuration name="EvenOddListMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="epi.EvenOddListMerge" />
       <module name="epi_judge_java" />
@@ -191,8 +206,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedArrayRemoveDups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="epi.SortedArrayRemoveDups" />
+    <configuration name="QueueFromStacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="epi.QueueFromStacks" />
       <module name="epi_judge_java" />
       <extension name="coverage">
         <pattern>
@@ -206,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueFromStacks" />
         <item itemvalue="Application.IsValidParenthesization" />
         <item itemvalue="Application.EvenOddListMerge" />
         <item itemvalue="Application.LookAndSay" />
         <item itemvalue="Application.PrimeSieve" />
-        <item itemvalue="Application.SortedArrayRemoveDups" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545021318134</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="String isWellFormed: implement using stack and Map&lt;Char,Char&gt;">
+      <created>1545024735773</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1545024735773</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -299,7 +321,8 @@
     <MESSAGE value="generatePrimes : from i to n, just remove multiples of primes that you know" />
     <MESSAGE value="look_and_say" />
     <MESSAGE value="evenOddMerge: maintained a list of Nodes&lt;&gt; , deviation from book*" />
-    <option name="LAST_COMMIT_MESSAGE" value="evenOddMerge: maintained a list of Nodes&lt;&gt; , deviation from book*" />
+    <MESSAGE value="String isWellFormed: implement using stack and Map&lt;Char,Char&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="String isWellFormed: implement using stack and Map&lt;Char,Char&gt;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/epi/IntAsArrayIncrement.java">
@@ -347,10 +370,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/epi/CircularQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/epi/IsValidParenthesization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="265">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/epi/QueueFromStacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

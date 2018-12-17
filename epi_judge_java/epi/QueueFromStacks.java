@@ -5,16 +5,25 @@ import epi.test_framework.GenericTest;
 import epi.test_framework.TestFailure;
 import java.util.List;
 import java.util.NoSuchElementException;
+import java.util.Stack;
+
 public class QueueFromStacks {
 
   public static class Queue {
+    public Stack<Integer> enqueue = new Stack<>();
+    public Stack<Integer> dequeue = new Stack<>();
     public void enqueue(Integer x) {
-      // TODO - you fill in here.
-      return;
+      enqueue.push(x);
     }
     public Integer dequeue() {
-      // TODO - you fill in here.
-      return 0;
+      if(!dequeue.isEmpty()){
+        return dequeue.pop();
+      }else{
+        while(!enqueue.isEmpty()){
+          dequeue.push(enqueue.pop());
+        }
+      }
+      return dequeue.pop();
     }
   }
   @EpiUserType(ctorParams = {String.class, int.class})
