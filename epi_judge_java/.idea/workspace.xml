@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b4fde656-4524-4be3-ae1f-52e542bd4576" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/epi/QueueFromStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/epi/QueueFromStacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epi/IntSquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/epi/IntSquareRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epi/IsTreeBalanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/epi/IsTreeBalanced.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,14 +63,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/epi/QueueFromStacks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="357">
+              <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
               <folding>
                 <element signature="e#453#454#0" expanded="true" />
                 <element signature="e#488#489#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/epi/IsTreeBalanced.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/epi/IntSquareRoot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <folding>
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,6 +110,8 @@
       <find>EvenOddli</find>
       <find>iswel</find>
       <find>class qu</find>
+      <find>boolean isbala</find>
+      <find>int sq</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,6 +128,8 @@
         <option value="$PROJECT_DIR$/epi/EvenOddListMerge.java" />
         <option value="$PROJECT_DIR$/epi/IsValidParenthesization.java" />
         <option value="$PROJECT_DIR$/epi/QueueFromStacks.java" />
+        <option value="$PROJECT_DIR$/epi/IsTreeBalanced.java" />
+        <option value="$PROJECT_DIR$/epi/IntSquareRoot.java" />
       </list>
     </option>
   </component>
@@ -139,7 +166,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545026591265" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545095072004" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -153,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QueueFromStacks">
+  <component name="RunManager" selected="Application.IntSquareRoot">
     <configuration name="EvenOddListMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="epi.EvenOddListMerge" />
       <module name="epi_judge_java" />
@@ -167,34 +194,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntSquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="epi.IntSquareRoot" />
+      <module name="epi_judge_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="epi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsTreeBalanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="epi.IsTreeBalanced" />
+      <module name="epi_judge_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="epi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IsValidParenthesization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="epi.IsValidParenthesization" />
-      <module name="epi_judge_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="epi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LookAndSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="epi.LookAndSay" />
-      <module name="epi_judge_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="epi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimeSieve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="epi.PrimeSieve" />
       <module name="epi_judge_java" />
       <extension name="coverage">
         <pattern>
@@ -221,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntSquareRoot" />
+        <item itemvalue="Application.IsTreeBalanced" />
         <item itemvalue="Application.QueueFromStacks" />
         <item itemvalue="Application.IsValidParenthesization" />
         <item itemvalue="Application.EvenOddListMerge" />
-        <item itemvalue="Application.LookAndSay" />
-        <item itemvalue="Application.PrimeSieve" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545024735773</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="QueueFromStacks: &#10;two stacks, enqueue stack and dequeue stack,&#10;enqueue to enqueue stack, dequeue from dequeue stack. when dequeue stack is empty move all objects from enqueue stack to dequeue stack.">
+      <created>1545026982284</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545026982284</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -302,8 +336,8 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32956153" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -322,7 +356,20 @@
     <MESSAGE value="look_and_say" />
     <MESSAGE value="evenOddMerge: maintained a list of Nodes&lt;&gt; , deviation from book*" />
     <MESSAGE value="String isWellFormed: implement using stack and Map&lt;Char,Char&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="String isWellFormed: implement using stack and Map&lt;Char,Char&gt;" />
+    <MESSAGE value="QueueFromStacks: &#10;two stacks, enqueue stack and dequeue stack,&#10;enqueue to enqueue stack, dequeue from dequeue stack. when dequeue stack is empty move all objects from enqueue stack to dequeue stack." />
+    <option name="LAST_COMMIT_MESSAGE" value="QueueFromStacks: &#10;two stacks, enqueue stack and dequeue stack,&#10;enqueue to enqueue stack, dequeue from dequeue stack. when dequeue stack is empty move all objects from enqueue stack to dequeue stack." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/epi/IntSquareRoot.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/epi/IntAsArrayIncrement.java">
@@ -386,11 +433,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/epi/QueueFromStacks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="357">
+          <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
           <folding>
             <element signature="e#453#454#0" expanded="true" />
             <element signature="e#488#489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/epi/IsTreeBalanced.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/epi/IntSquareRoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
           </folding>
         </state>
       </provider>
