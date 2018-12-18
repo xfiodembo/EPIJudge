@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b4fde656-4524-4be3-ae1f-52e542bd4576" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/epi/Anagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/epi/Anagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epi/IsStringPermutableToPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/epi/IsStringPermutableToPalindrome.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/epi/SortedArrayRemoveDups.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/epi/PrimeSieve.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,11 +88,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/epi/Anagrams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/epi/IsStringPermutableToPalindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -130,6 +130,7 @@
       <find>boolean isbala</find>
       <find>int sq</find>
       <find>findAna</find>
+      <find>Canf</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,6 +150,7 @@
         <option value="$PROJECT_DIR$/epi/IsTreeBalanced.java" />
         <option value="$PROJECT_DIR$/epi/IntSquareRoot.java" />
         <option value="$PROJECT_DIR$/epi/Anagrams.java" />
+        <option value="$PROJECT_DIR$/epi/IsStringPermutableToPalindrome.java" />
       </list>
     </option>
   </component>
@@ -185,7 +187,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545097788491" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545166259319" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Anagrams">
+  <component name="RunManager" selected="Application.IsStringPermutableToPalindrome">
     <configuration name="Anagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="epi.Anagrams" />
       <module name="epi_judge_java" />
@@ -226,8 +228,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsTreeBalanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="epi.IsTreeBalanced" />
+    <configuration name="IsStringPermutableToPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="epi.IsStringPermutableToPalindrome" />
       <module name="epi_judge_java" />
       <extension name="coverage">
         <pattern>
@@ -239,8 +241,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsValidParenthesization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="epi.IsValidParenthesization" />
+    <configuration name="IsTreeBalanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="epi.IsTreeBalanced" />
       <module name="epi_judge_java" />
       <extension name="coverage">
         <pattern>
@@ -267,11 +269,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsStringPermutableToPalindrome" />
         <item itemvalue="Application.Anagrams" />
         <item itemvalue="Application.IntSquareRoot" />
         <item itemvalue="Application.IsTreeBalanced" />
         <item itemvalue="Application.QueueFromStacks" />
-        <item itemvalue="Application.IsValidParenthesization" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545095165574</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="findAnagrams: HashTables!!!!!">
+      <created>1545097841156</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1545097841156</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -354,15 +363,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24949698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17572099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.32956153" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.50033534" side_tool="true" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50033534" side_tool="true" visible="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966466" visible="true" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49966466" visible="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -384,7 +393,8 @@
     <MESSAGE value="String isWellFormed: implement using stack and Map&lt;Char,Char&gt;" />
     <MESSAGE value="QueueFromStacks: &#10;two stacks, enqueue stack and dequeue stack,&#10;enqueue to enqueue stack, dequeue from dequeue stack. when dequeue stack is empty move all objects from enqueue stack to dequeue stack." />
     <MESSAGE value="squareRoot of Int: Didnt quite get this one. need to review logic some more." />
-    <option name="LAST_COMMIT_MESSAGE" value="squareRoot of Int: Didnt quite get this one. need to review logic some more." />
+    <MESSAGE value="findAnagrams: HashTables!!!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="findAnagrams: HashTables!!!!!" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/epi/IntAsArrayIncrement.java">
@@ -484,8 +494,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/epi/Anagrams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/epi/IsStringPermutableToPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
         </state>
       </provider>
     </entry>
