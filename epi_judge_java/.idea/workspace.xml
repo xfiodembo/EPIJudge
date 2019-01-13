@@ -14,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/epi/CountBits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            <state relative-caret-position="288">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/epi/Parity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -39,6 +48,8 @@
       <find>int sq</find>
       <find>findAna</find>
       <find>Canf</find>
+      <find>countBit</find>
+      <find>parity</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -60,6 +71,7 @@
         <option value="$PROJECT_DIR$/epi/Anagrams.java" />
         <option value="$PROJECT_DIR$/epi/IsStringPermutableToPalindrome.java" />
         <option value="$PROJECT_DIR$/epi/CountBits.java" />
+        <option value="$PROJECT_DIR$/epi/Parity.java" />
       </list>
     </option>
   </component>
@@ -87,6 +99,28 @@
               <item name="epi_judge_java" type="462c0819:PsiDirectoryNode" />
               <item name="epi" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="epi_judge_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epi_judge_java" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epi_judge_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epi_judge_java" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epi_judge_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="epi_judge_java" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="epi_judge_java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="epi_judge_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -96,7 +130,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547347602971" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547353900910" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -114,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountBits">
+  <component name="RunManager" selected="Application.Parity">
     <configuration name="Anagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="epi.Anagrams" />
       <module name="epi_judge_java" />
@@ -169,8 +203,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsTreeBalanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="epi.IsTreeBalanced" />
+    <configuration name="Parity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="epi.Parity" />
       <module name="epi_judge_java" />
       <extension name="coverage">
         <pattern>
@@ -186,16 +220,16 @@
       <item itemvalue="Application.Anagrams" />
       <item itemvalue="Application.IntSquareRoot" />
       <item itemvalue="Application.IsStringPermutableToPalindrome" />
-      <item itemvalue="Application.IsTreeBalanced" />
       <item itemvalue="Application.CountBits" />
+      <item itemvalue="Application.Parity" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Parity" />
         <item itemvalue="Application.CountBits" />
         <item itemvalue="Application.IsStringPermutableToPalindrome" />
         <item itemvalue="Application.Anagrams" />
         <item itemvalue="Application.IntSquareRoot" />
-        <item itemvalue="Application.IsTreeBalanced" />
       </list>
     </recent_temporary>
   </component>
@@ -423,8 +457,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/epi/CountBits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        <state relative-caret-position="288">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/epi/Parity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
